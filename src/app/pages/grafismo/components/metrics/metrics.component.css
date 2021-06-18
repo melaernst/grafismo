@@ -1,0 +1,33 @@
+.position{
+    position: absolute;
+  }
+
+.metrics{
+    right: 234px;
+     bottom: 30px;    
+     width: 80%;
+  }
+
+  progress {
+    background:none;
+    border: 0;
+    width: 25rem;
+    height: 20px;
+    padding-top: 5px;
+    display: flex;
+    -webkit-appearance: none;
+  
+  }
+  progress::-webkit-progress-bar {
+    height: 40%;
+    background-color:#837bf0;
+  
+  }
+  progress::-webkit-progress-value {
+    background:rgb(4, 236, 4);
+  
+  }
+
+  .row{
+    padding-bottom: 11px;
+  }

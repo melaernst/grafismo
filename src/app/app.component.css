@@ -1,0 +1,37 @@
+html,body{ margin:0; padding:0; height:100%; width:100%; }
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 5s;
+  animation-name: animatebottom;
+  animation-duration: 5s
+}
+@-webkit-keyframes animatebottom {
+  from { bottom:-70px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-80px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+
+.animate-bottom-down {
+  position: relative;
+  -webkit-animation-name: animatebottomdown;
+  -webkit-animation-duration: 5s;
+  animation-name: animatebottomdown;
+  animation-duration: 5s
+}
+
+.inner{
+    width: 100%;
+    height: auto;
+    background: green;
+    overflow:hidden; /* or overflow:auto; if you want scrollbars */
+}
+
+.hidden{
+  visibility: hidden;
+}

@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: fontBold;
+    src: url(https://lvp-fonts.s3-eu-west-1.amazonaws.com/Gibson/GibsonBoldIt.woff);
+  }
+
+  @font-face {
+    font-family: fontRegular;
+    src: url(https://lvp-fonts.s3-eu-west-1.amazonaws.com/Gibson/GibsonRegular.woff);
+  }
+
+ .body {
+    font-family: fontBold;
+    color: white;
+ } 
+
+ .container { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end
+} 

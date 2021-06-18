@@ -1,0 +1,59 @@
+
+.body-img{
+  background-image: url(./../../../assets/img/ingame-lower-stats-player.png);
+  height: 100vh;
+  width: 100%;
+  background-position: bottom center;
+  background-size: auto;
+  position: relative;
+
+ 
+  }
+
+.position{
+  position: absolute;
+}
+
+
+.header-img{
+
+  bottom: 196px;
+  left: 32px;
+}
+
+  .logo{
+    width:60px
+  }
+
+  .text-left{
+    margin-left: 49rem
+  }
+
+  .content{
+    right: 0; 
+    bottom: 0; 
+    display: flex;
+    align-items: flex-end
+  }
+
+  .photo{
+    width: 312px;
+    z-index: 3;
+    margin-bottom: -107px;
+    margin-right: -149px;
+  }
+
+  .champion{
+    width: 335px;
+  }
+
+  .metrics{
+    right: 234px;
+     bottom: 30px;    
+     width: 80%;
+  }
+  
+ 
+  
+
+

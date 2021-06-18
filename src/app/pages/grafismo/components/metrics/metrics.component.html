@@ -1,0 +1,17 @@
+<div class="position metrics">
+ 
+    <div class="row"  *ngFor="let metric of metrics">
+        <div class="col-2 metric-text text-end">
+            <span >{{metric.metric}}</span>
+        
+        </div>
+        <div class="col-4">
+            <progress [max]="metric.globalValue" [value]="metric.playerValue"> </progress>
+          
+        </div>
+        <div class="col-4 text-center">
+            <span >{{metric.playerValue}}</span>
+
+        </div>
+      </div>
+</div>
